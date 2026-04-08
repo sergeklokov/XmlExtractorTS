@@ -1,12 +1,26 @@
 {
   "name": "xmlextractorts",
   "version": "1.0.0",
-  "description": "",
+  "description": "I want to create console app for windows which will modify txt file. \r I have a text file where each line looks like this:\r \"<XML_CONTENT>\",2026-04-07 10:32:51.9690000",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeklokov/XmlExtractorTS.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sergeklokov/XmlExtractorTS/issues"
+  },
+  "homepage": "https://github.com/sergeklokov/XmlExtractorTS#readme",
+  "dependencies": {
+    "@types/node": "^25.5.2",
+    "he": "^1.2.0",
+    "typescript": "^6.0.2"
+  }
 }
