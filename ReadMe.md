@@ -8,3 +8,17 @@ The XML is inside quotes
 XML characters are HTML-escaped (&lt;, &gt;, &quot;)
 After the closing quote there is a date
 I want each XML document saved as a separate .xml file
+
+==============
+1. Install libraries:
+
+npm install typescript @types/node hemlExtractorTS
+npm install --save-dev @types/he
+npm install --save-dev @types/node
+
+2. Validate if you have tsc compiler:
+npx tsc --version
+
+3. Compile:
+npm run build
+
