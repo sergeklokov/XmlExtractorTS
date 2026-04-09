@@ -22,3 +22,5 @@ npx tsc --version
 3. Compile:
 npm run build
 
+4. Run
+npm start
