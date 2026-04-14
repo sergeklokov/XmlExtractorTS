@@ -9,12 +9,22 @@ XML characters are HTML-escaped (&lt;, &gt;, &quot;)
 After the closing quote there is a date
 I want each XML document saved as a separate .xml file
 
-==============
-1. Install libraries:
+Result files will be in folder xml (after execution)
 
+Observe example of results in folders:
+xml formatted
+xml not formatted
+
+==============
+1.1. Install all at once
+npm install
+
+1.2. Alternative (Install libraries separately):
 npm install typescript @types/node hemlExtractorTS
 npm install --save-dev @types/he
 npm install --save-dev @types/node
+npm install xml-formatter
+npm install -D prettier prettier-plugin-xml
 
 2. Validate if you have tsc compiler:
 npx tsc --version

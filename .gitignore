@@ -39,6 +39,13 @@ Thumbs.db
 .idea/
 *.swp
 
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
 # Optional: lock files (keep ONE if you use it)
 # package-lock.json
 # yarn.lock

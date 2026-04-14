@@ -25,11 +25,14 @@
   },
   "homepage": "https://github.com/sergeklokov/XmlExtractorTS#readme",
   "dependencies": {
-    "he": "^1.2.0"
+    "he": "^1.2.0",
+    "xml-formatter": "^3.7.0"
   },
   "devDependencies": {
     "@types/he": "^1.2.3",
     "@types/node": "^22.19.17",
+    "prettier": "^3.8.2",
+    "prettier-plugin-xml": "^0.1.0",
     "typescript": "^6.0.2"
   }
 }
