@@ -34,3 +34,12 @@ npm run build
 
 4. Run
 npm start
+
+
+============ Other issues
+1. Can't run scripts in powershell
+npm install
+npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. 
+
+fix:
+powershell -ExecutionPolicy Bypass
